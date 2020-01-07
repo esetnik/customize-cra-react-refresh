@@ -1,12 +1,16 @@
 {
   "name": "customize-cra-react-refresh",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add react-refresh to any create-react-app using customize-cra",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esetnik/customize-cra-react-refresh.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ethan Setnik <esetnik@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.1.3",

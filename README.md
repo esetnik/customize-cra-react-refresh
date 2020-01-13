@@ -20,6 +20,22 @@ Provides a simple, no frills way to integrate `react-refresh` into your `create-
    module.exports = override(addReactRefresh({ disableRefreshCheck: true }));
    ```
 
+3. 'Flip' the existing calls to `react-scripts` in `npm` scripts for start, build and test
+
+   ```diff
+     /* package.json */
+
+     "scripts": {
+   -   "start": "react-scripts start",
+   +   "start": "react-app-rewired start",
+   -   "build": "react-scripts build",
+   +   "build": "react-app-rewired build",
+   -   "test": "react-scripts test --env=jsdom",
+   +   "test": "react-app-rewired test --env=jsdom",
+       "eject": "react-scripts eject"
+   }
+   ```
+
 # Credits
 
 Original idea based on [comment by @drather19](https://github.com/facebook/react/issues/16604#issuecomment-561961608).

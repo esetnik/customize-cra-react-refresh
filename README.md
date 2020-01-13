@@ -20,7 +20,7 @@ Provides a simple, no frills way to integrate `react-refresh` into your `create-
    module.exports = override(addReactRefresh({ disableRefreshCheck: true }));
    ```
    
-   Note: `disableRefreshCheck: true` may be necessary until https://github.com/pmmmwh/react-refresh-webpack-plugin/issues/15 is resolved
+   Note: `disableRefreshCheck: true` may be necessary. See [#3](https://github.com/esetnik/customize-cra-react-refresh/issues/3) for more details.
 
 3. 'Flip' the existing calls to `react-scripts` in `npm` scripts for start, build and test
 

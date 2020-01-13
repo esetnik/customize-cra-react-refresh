@@ -1,6 +1,6 @@
 # Description
 
-Provides a simple, no frills way to integrate `react-refresh` into your `create-react-app` using [customize-cra](https://github.com/arackaf/customize-cra).
+Provides a simple, no frills way to integrate `react-refresh` into your `create-react-app` using [customize-cra](https://github.com/arackaf/customize-cra) and [@pmmmwh/react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin).
 
 # Installation
 

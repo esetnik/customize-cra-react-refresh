@@ -1,6 +1,6 @@
 {
   "name": "customize-cra-react-refresh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add react-refresh to any create-react-app using customize-cra",
   "main": "index.js",
   "repository": {
@@ -13,8 +13,8 @@
   "author": "Ethan Setnik <esetnik@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.1.3",
-    "react-refresh": "^0.7.1"
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.2.0",
+    "react-refresh": "^0.8.0"
   },
   "peerDependencies": {
     "customize-cra": "^0.9.1"

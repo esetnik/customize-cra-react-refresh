@@ -7,8 +7,10 @@ Provides a simple, no frills way to integrate `react-refresh` into your `create-
 1. Install dependencies
 
    ```
-   npm install -D react-app-rewired customize-cra customize-cra-react-refresh
+   npm install -D webpack-hot-middleware react-app-rewired customize-cra customize-cra-react-refresh
    ```
+
+   Note: `webpack-hot-middleware` may be necessary. See [https://github.com/pmmmwh/react-refresh-webpack-plugin/issues/45](https://github.com/pmmmwh/react-refresh-webpack-plugin/issues/45) for more details.
 
 2. Create or update your `config-overrides.js`
 

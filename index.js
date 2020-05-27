@@ -7,13 +7,14 @@ const paths = require("react-scripts/config/paths");
 
 const overrideEntry = () => (config) => {
   config.entry = paths.appPath;
+  return config;
 };
 
 /**
  * @param {ReactRefreshPluginOptions} [options] Options for react-refresh-plugin.
  */
 const isDevelopment = process.env.NODE_ENV !== "production";
-const addReactRefresh = (options) =>
+const addReactRefresh = (options = {}) =>
   override(
     isDevelopment && overrideEntry(),
     isDevelopment && addBabelPlugin("react-refresh/babel"),

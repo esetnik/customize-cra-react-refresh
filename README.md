@@ -17,11 +17,8 @@ Provides a simple, no frills way to integrate `react-refresh` into your `create-
    const { addReactRefresh } = require("customize-cra-react-refresh");
 
    /* config-overrides.js */
-   module.exports = override(addReactRefresh({ disableRefreshCheck: true }));
-   ```
+   module.exports = override(addReactRefresh());
    
-   Note: `disableRefreshCheck: true` may be necessary. See [#3](https://github.com/esetnik/customize-cra-react-refresh/issues/3) for more details.
-
 3. 'Flip' the existing calls to `react-scripts` in `npm` scripts for start, build and test
 
    ```diff

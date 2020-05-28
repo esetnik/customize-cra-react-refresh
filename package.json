@@ -17,6 +17,6 @@
     "react-refresh": "^0.8.1"
   },
   "peerDependencies": {
-    "customize-cra": "^0.9.1"
+    "customize-cra": ">=0.9"
   }
 }

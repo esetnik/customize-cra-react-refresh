@@ -6,7 +6,7 @@ const webpackDevClientEntry = require.resolve(
 const paths = require("react-scripts/config/paths");
 
 const overrideEntry = () => (config) => {
-  config.entry = paths.appPath;
+  config.entry = paths.appIndexJs;
   return config;
 };
 

@@ -1,6 +1,6 @@
 {
   "name": "customize-cra-react-refresh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Add react-refresh to any create-react-app using customize-cra",
   "main": "index.js",
   "repository": {

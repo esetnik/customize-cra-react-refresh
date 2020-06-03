@@ -17,7 +17,7 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 const addReactRefresh = (options = {}) =>
   override(
     isDevelopment && overrideEntry(),
-    isDevelopment && addBabelPlugin("react-refresh/babel"),
+    isDevelopment && addBabelPlugin(require.resolve("react-refresh/babel")),
     isDevelopment &&
       addWebpackPlugin(
         new ReactRefreshPlugin({
